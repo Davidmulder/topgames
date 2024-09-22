@@ -7,7 +7,7 @@
 </h1>
 
 <p align="center">
-Bem-vindo ao GameHub, um site de notícias e informações sobre o mundo dos Games, desenvolvido em React Native. Este projeto foi criado para fornecer uma experiência dinâmica e interativa para gamers que desejam se manter atualizados sobre as últimas novidades, jogos e tendências da indústria dos games.</p>
+Bem-vindo ao Top Games, um site de notícias e informações sobre o mundo dos Games, desenvolvido em React Native. Este projeto foi criado para fornecer uma experiência dinâmica e interativa para gamers que desejam se manter atualizados sobre as últimas novidades, jogos e tendências da indústria dos games.</p>
 
 <p align="center">
   <a href="#">
