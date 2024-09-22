@@ -1,0 +1,84 @@
+.noticiasContainer {
+    padding: 20px;
+}
+
+.noticiasContainer h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.feed {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    
+}
+
+.noticia {
+   
+    border: none; /* Remover bordas brancas */
+    border-radius: 8px; /* Se quiser bordas arredondadas */
+    width: 300px;
+    margin: 5px; /* Diminuir margem entre os cards */
+    padding: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Sombras suaves ao redor */
+    transition: transform 0.3s ease;
+    text-align: center;
+}
+
+.noticia img {
+    width: 215px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.noticia h2 {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.noticia p {
+    font-size: 14px;
+    color: #fff;
+}
+
+.noticia a {
+    display: block;
+    margin-top: 10px;
+    color: #007bff;
+    text-decoration: none;
+}
+
+.noticia:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Sombra mais pronunciada no hover */
+}
+
+.paginacao {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    margin: 0 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
+  span {
+    margin: 0 10px;
+    color: #fff;
+  }

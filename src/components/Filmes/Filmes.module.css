@@ -1,0 +1,27 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; /* Para distribuir os itens uniformemente */
+    gap: 10px; /* Mesmo espaço que no componente de notícias */
+}
+
+.filme {
+    text-align: center;
+    position: relative;
+    margin: 0; /* Remover margem extra */
+}
+
+.imagem, .video {
+    width: 100%; /* Ocupa toda a largura disponível do item */
+    height: 120px;
+    object-fit: cover; /* Para manter a proporção da imagem e do vídeo */
+    border-radius: 15px; /* Bordas arredondadas */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Sombras leves para dar destaque */
+    transition: opacity 0.3s ease; /* Transição suave ao alternar */
+}
+
+h2 {
+    margin-top: 10px;
+    font-size: 1.2rem;
+    color: var(--branco);
+}

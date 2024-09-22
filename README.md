@@ -1,70 +1,88 @@
-# Getting Started with Create React App
+<h1 align="center">
+<br>
+  <img src="img/logo_game.png"  width="120">
+<br>
+<br>
+🕹️ GameHub - Site de TOP GAMES feito em React Native 🎮
+</h1>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<p align="center">
+Bem-vindo ao GameHub, um site de notícias e informações sobre o mundo dos Games, desenvolvido em React Native. Este projeto foi criado para fornecer uma experiência dinâmica e interativa para gamers que desejam se manter atualizados sobre as últimas novidades, jogos e tendências da indústria dos games.</p>
 
-## Available Scripts
+<p align="center">
+  <a href="#">
+    <img src="https://img.shields.io/badge/License-MIT-blue.svg" alt="License MIT">
+  </a>
+</p>
 
-In the project directory, you can run:
+<div align="center">
 
-### `npm start`
+### Apresentação
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+<img src="img/capa.png" alt="web" align="center" width="525"><br>
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Categoria
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+  <img src="img/categoria.png" alt="web" align="center" width="525"><br>
 
-### `npm run build`
+  ### Lateral
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+  <img src="img/lateral.png" alt="web" align="center" width="525"><br>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+   ### Inteira
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+  <img src="img/inteira.png" alt="web" align="center" width="525"><br>
+  
+  <br> 
 
-### `npm run eject`
+</div>
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+ 
+ ### 🔍 Visão Geral
+```sh
+ TOP GAMES é um aplicativo voltado para entusiastas de games, onde é possível:
+Ver as últimas notícias do mundo dos games.
+Explorar diferentes categorias de jogos.
+Este projeto foi desenvolvido com o objetivo de explorar e demonstrar habilidades com React Native, integrando-se a APIs externas e criando uma interface amigável para dispositivos móveis. 
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+<hr />
 
-## Learn More
+## 🚀 Funcionalidades Principais
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```sh
+Notícias sobre Games: Últimas notícias do mundo dos games consumidas de APIs externas (ex: NewsAPI).
+Catálogo de Jogos: Exibição de uma lista de jogos com imagens e vídeos.
+Favoritos: Possibilidade de favoritar jogos e acessá-los rapidamente.
+Filtro por Categorias: Navegação entre categorias de games.
+Design Responsivo: Interface otimizada para diferentes tamanhos de tela.
+ 
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+🛠️ Tecnologias Utilizadas
+```sh
+Este projeto foi desenvolvido usando as seguintes tecnologias:
 
-### Code Splitting
+React Native - Framework principal para a criação da interface.
+React Navigation - Para navegação entre páginas.
+Axios - Para fazer requisições HTTP para APIs de notícias e jogos.
+Context API - Para gerenciamento de estado global (como o sistema de favoritos e categorias).
+CSS Modules - Para estilização customizada e modularizada dos componentes.
+NewsAPI - API utilizada para obter as últimas notícias sobre games.
+JSON Server (ou API própria) - Para simulação de um backend com os dados de jogos.
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## 📧 Contato
 
-### Analyzing the Bundle Size
+Caso tenha alguma dúvida, entre em contato:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+E-mail: david.foxmulder@gmail.com<br>
+LinkedIn: [david orion](https://www.linkedin.com/in/davidmuldersilva/)
 
-### Making a Progressive Web App
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-### Advanced Configuration
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)

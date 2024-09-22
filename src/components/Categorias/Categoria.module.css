@@ -1,0 +1,37 @@
+.container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px; /* Espaçamento entre os cards */
+    padding: 20px;
+  }
+  
+  .card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100px;
+    padding: 15px;
+    background-color: var(--roxo);;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s ease;
+    cursor: pointer;
+  }
+  
+  .card:hover {
+    transform: scale(1.05); /* Efeito de zoom ao passar o mouse */
+  }
+  
+  .icone {
+    width: 35px;
+    height: 35px;
+    margin-bottom: 10px;
+  }
+  
+  h3 {
+    font-size: 16px;
+    color: #fff;
+  }
+  

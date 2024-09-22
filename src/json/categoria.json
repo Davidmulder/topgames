@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "titulo": "Ação",
+    "icone": "/imagens/icones/Action.svg"
+    
+  },
+  {
+    "id": 2,
+    "titulo": "Aventura",
+    "icone": "/imagens/icones/Adventure.svg"
+    
+  },
+  {
+    "id": 3,
+    "titulo": "Multijogador",
+    "icone": "/imagens/icones/2players.svg"
+    
+  },
+  {
+    "id": 4,
+    "titulo": "Estratégia",
+    "icone": "/imagens/icones/estra.svg"
+    
+  },
+  {
+    "id": 5,
+    "titulo": "Tiro",
+    "icone": "/imagens/icones/tiro.svg"
+    
+  },
+  {
+    "id": 6,
+    "titulo": "Corrida",
+    "icone": "/imagens/icones/Car.svg"
+    
+  }
+]

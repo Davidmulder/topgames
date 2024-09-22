@@ -1,0 +1,31 @@
+[
+    {
+      "id": 1,
+      "titulo": "Filme 1",
+      "imagem": "/imagens/01.webp",
+      "video": "/imagens/video01.mp4",
+      "legenda": "Este é o Filme 1"
+    },
+    {
+      "id": 2,
+      "titulo": "Filme 2",
+      "imagem": "/imagens/02.webp",
+      "video": "/imagens/video01.mp4",
+      "legenda": "Este é o Filme 2"
+    },
+    {
+      "id": 3,
+      "titulo": "Filme 3",
+      "imagem": "/imagens/03.webp",
+      "video": "/imagens/video01.mp4",
+      "legenda": "Este é o Filme 3"
+    },
+    {
+      "id": 4,
+      "titulo": "Filme 3",
+      "imagem": "/imagens/04.webp",
+      "video": "/imagens/video01.mp4",
+      "legenda": "Este é o Filme 3"
+    }
+  ]
+  
