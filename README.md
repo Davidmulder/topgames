@@ -3,7 +3,7 @@
   <img src="img/logo_game.png"  width="120">
 <br>
 <br>
-🕹️ GameHub - Site de TOP GAMES feito em React Native 🎮
+🕹️ TOP GAMES - Site em React Native 🎮
 </h1>
 
 <p align="center">
