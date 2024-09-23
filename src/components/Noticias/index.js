@@ -16,11 +16,16 @@ function Noticias() {
      const fetchNoticias = () => {
       setLoading(true);
       const offset = (paginaAtual - 1) * itensPorPagina; // Calcula o offset com base na página atual
-
+      const url =`https://newsapi.org/v2/everything?q=games&language=pt&apiKey=d55a499a045949be8432808634e907a5`;
 
     // Chama a API de notícias do mundo dos games (NewsAPI)
-    fetch('https://newsapi.org/v2/everything?q=games&language=pt&apiKey=d55a499a045949be8432808634e907a5')
-        .then(response => response.json())
+    fetch(url)
+    .then(response => {
+      if (!response.ok) {
+        throw new Error('Erro ao buscar as notícias');
+      }
+      return response.json();
+    })
         .then(data => {
           setNoticias(data.articles.slice(offset, offset + itensPorPagina)); // Mostra as notícias com base na página atual
           setTotalPaginas(Math.ceil(data.articles.length / itensPorPagina)); // Calcula o total de páginas
